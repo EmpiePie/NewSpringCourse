@@ -1,5 +1,8 @@
 package empie.pie.NewSpringCourse.game;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class SuperContraGame implements GamingConsole {
 
     public void up() {
